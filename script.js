@@ -34,11 +34,11 @@ switch(value){
         break;
 }
 
-function min(a,b){
+function min(a, b){
     if( a > b ){
-    return console.log(b);
+    return b;
 }
-    return console.log(a);
+    return a;
 }
     min(3, 5);
     min(5, -1);
