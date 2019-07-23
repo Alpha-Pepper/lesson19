@@ -2,20 +2,20 @@
 
 function isNumberInRange(number){
     if(0 < number && number < 10){
-        return console.log('true');
+        return true;
     }
     else{
-    return console.log('false');
+    return false;
 }
 }
 isNumberInRange(15);
 
 function isEven(number){
     if(number % 2 == 0){
-        return console.log('true');
+        return true;
     }
     else{
-        return console.log('false');
+        return false;
     }
 }
 isEven(111);
